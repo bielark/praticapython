@@ -1,7 +1,8 @@
-a =float(input("Digite um valor em dòlar a ser convertido para real:"))
+a = float(input("Digite um valor em dòlar a ser convertido para real: US$:"))
 
-b = a * 4.78
-print("Valor em real:",b)
+dólar = 4.78
+
+print("Valor em real: R$:",a * dólar)
 
 
 
